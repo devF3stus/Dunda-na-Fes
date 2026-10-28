@@ -1,0 +1,36 @@
+# Runtime storage (audio files, SQLite database, AI models, temp files)
+storage/staging/*
+!storage/staging/.gitkeep
+storage/library/*
+!storage/library/.gitkeep
+storage/temp/*
+!storage/temp/.gitkeep
+storage/models/*
+!storage/models/.gitkeep
+storage/db/*
+!storage/db/.gitkeep
+
+# Node dependencies and build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/node_modules/
+
+# Environment variables (secrets / local overrides)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Python virtual environments and cache
+separator/.venv/
+separator/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log

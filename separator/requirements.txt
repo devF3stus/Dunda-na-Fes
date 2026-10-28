@@ -1,0 +1,6 @@
+# Isolated Python dependencies for Dunda na Fes audio separation
+# Install inside separator/.venv via:
+#   py -3.13 -m venv separator/.venv
+#   separator\.venv\Scripts\python.exe -m pip install -r separator/requirements.txt
+audio-separator[cpu]==0.47.1
+audioread>=3.0.1
